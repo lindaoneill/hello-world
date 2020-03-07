@@ -19,3 +19,6 @@ def index():
   data = []
   for i in range(start, end +1):
     data.append(f"Post #{i}")
+    
+  #Return list of posts
+  return jsonify(data)
